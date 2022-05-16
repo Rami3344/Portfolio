@@ -1,0 +1,114 @@
+/*header*/
+
+.header-menu {
+    z-index: 99;
+}
+
+.logo {
+    width: 60px;
+}
+
+.all-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+}
+
+.collapse {
+    height: 50px;
+    justify-content: space-between;
+}
+
+.cart {
+    width: 50px;
+}
+
+.navbar {
+    background-color: #291e19cf;
+}
+
+.nav-item {
+    font-size: 35px;
+}
+
+.navbar-brand {
+    font-size: 800px;
+}
+
+
+/*main*/
+
+body {
+    margin: 0;
+    background-image: url("http://digitalimagemakerworld.com/images/gaming-wallpaper/36634957-gaming-wallpaper.jpg");
+    background-size: cover;
+}
+
+main {
+    background-size: cover;
+    margin: 0px;
+    height: 2600px;
+    background-color: #131313b5;
+    padding: 10px;
+}
+
+.component {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.motherboard {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.boitier {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.ram {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.gpu {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.cpu {
+    width: 250px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    text-shadow: 4px 4px black
+}
+
+hr {
+    background: white;
+}
+
+p {
+    color: white;
+}
+
+.comp-desc {
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: space-around
+}

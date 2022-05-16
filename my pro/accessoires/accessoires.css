@@ -1,0 +1,78 @@
+/*header*/
+.header-menu{
+    z-index: 99;
+}
+.logo{
+    width: 60px;
+}
+.collapse{
+    height: 50px;
+    justify-content: space-between;
+}
+.cart{
+    width: 50px;
+}
+.navbar{
+    background-color:#686e6a8c;
+}
+.nav-item{
+    font-size: 35px;
+}
+.navbar-brand{
+    font-size: 800px;
+}
+/*main*/
+body{
+    margin: 0;
+    background-image: url("https://wallpaperaccess.com/full/700025.jpg");
+}
+main{
+    background-color: #30362db0;
+    height: 2300px;
+    padding-top: 1px;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.items-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.keyboard{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+}
+.mouse{
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+}
+.headset{
+    height: 350px;
+    width: 300px;
+    border-radius: 10px;
+}
+.chair{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+h2{
+    color: white;
+    text-align: center;
+    text-shadow: 4px 4px black;
+    font-family: 'Ultra', serif;
+}
+hr{
+    background: white;
+    border: 0;
+}
+.add-btn{
+    display: flex;
+    justify-content: space-around
+}

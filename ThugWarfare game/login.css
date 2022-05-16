@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+main{
+  background-color: #191919b5;
+  width: 1300px;
+  margin-left: 320px;
+  height: 2580px;
+}
+.wlc{
+  margin-bottom: 50px;
+  color: red;
+  animation-name: welcome;
+  animation-duration: 4s;
+  position: relative;
+  text-align: center;
+  animation-iteration-count: infinite;
+}
+@keyframes welcome {
+  0%   {color:orange; left:0px;}
+  25%  {color:blue; left:200px; }
+  50%  {color:red; left:0px; }
+  75%  {color: cyan; left:-200px; }
+  100% {color:orange; left:0px; }
+}
+li{
+  border-image: url(./gamephotos/Attack_00.png);
+}
+img{
+  margin-bottom: 30px;
+  width: 1300px;
+}
+.box{
+  width: 500px;
+  padding: 40px;
+  background: #191919;
+  text-align: center;
+  border-radius: 10px;
+ margin-left: 420px;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.box input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #fb7604;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color:#ab0000;
+}
+.box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #fb7604;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+  background:#fb7604 ;
+}
+.reg{
+  color:white ;
+}
+.cr-reg{
+  font-size: 22px;
+  text-decoration: none;
+  color: #fb7604 ;
+}
+.cr-reg:hover{
+  cursor: pointer;
+  color: #ab0000;
+}
+.line{
+  margin-top: 25px;
+  font-size: 5px;
+  border-color: white;
+}
+.desc{
+  text-align: center;
+}
+.about{
+  color: #aaa;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.online-users{
+  color: white;
+  text-align: center;
+}
+.top-str{
+  color: white;
+  text-align: center;
+}
+.copy{
+  margin-top: 40px;
+  text-align: center;
+  color: #aaa;
+  margin-bottom: -10px;
+}
+.tops{
+  display: inline-flex;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+.rank{
+  margin-right: 700px;
+}
+.tp{
+  color: #aaa;
+  text-align: center;
+}
+.last-layer{
+  height: 150px;
+  margin-bottom: -10px;
+}

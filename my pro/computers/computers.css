@@ -1,0 +1,85 @@
+/*header*/
+.header-menu{
+    z-index: 99;
+}
+.logo{
+    width: 60px;
+}
+.collapse{
+    height: 50px;
+    justify-content: space-between;
+}
+.cart{
+    width: 50px;
+}
+.navbar{
+    background-color:#3947608a;
+}
+.nav-item{
+    font-size: 35px;
+}
+.navbar-brand{
+    font-size: 800px;
+}
+/*main*/
+body{
+    margin: 0;
+    background-image: url("http://www.wallpaperstalk.com/wp-content/uploads/2019/05/inc9MxSn5.jpg");
+    background-size: cover;
+}
+main{
+    padding: 50px 0px;
+    background-color:#17250ab0;
+    height: 1500px;
+}
+.gifpc1{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+}
+.gif{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #309a4252;
+    
+}
+.gifpc2{
+    display: flex;
+    justify-content: space-around;
+    margin:20px;
+}
+.text-configue1{
+    display: flex;
+    justify-content: space-around;
+}
+.configue1{
+    color: white;
+
+}
+.configue2{
+    color: white;
+    
+}
+.text-configue2{
+    display: flex;
+    justify-content: space-around;
+}
+.configue3{
+    color: white;
+
+}
+.configue4{
+    color: white;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    padding-bottom:50px;
+    text-shadow: 5px 5px black;
+    font-family: 'Saira Stencil One', cursive;
+}
+.btn-outline-warning{
+    margin-top: 20px;
+}

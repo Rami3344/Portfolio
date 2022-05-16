@@ -1,0 +1,170 @@
+/*header*/
+.navbar{
+    background-color: black;
+    height: 100px
+}
+.navbar-brand{
+    color: orange;
+    font-size: 40px;
+    margin-bottom: 11px;
+}
+.nav-link{
+    font-size: 20px;
+    color: orange;
+}
+.nav-cont{
+  margin-left: 50px;
+  font-size: 20px;
+  color: orange;
+}
+.navbar-toggler{
+    color: orange;
+    
+}
+/*body*/
+body{
+    background-color: black;
+}
+.container-{
+  display: -webkit-box;
+}
+.carousel {
+    /* any dimensions are fine, it can be responsive with max-width */
+    height: 1000px;
+  }
+.carousel-item h3{
+background-color: black;
+    color: orange;
+    height: 60px;
+    width: 250px;
+    padding-top: 10px;
+    border-radius: 50px;
+margin-left: 540px;
+}
+.img{
+    height:1000px;
+    width: 100%;
+}
+.about h1{
+  margin-top: 30px;
+    font-size: 30px;
+    color: orange;
+    text-align: center;
+}
+.about p{
+    font-size:20px;
+    color: white;
+    text-align: center;
+}
+* {box-sizing: border-box}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+  opacity: 1;
+}
+.ck{
+    color: white;
+    margin-right: 23px;
+}
+.ck:hover{
+    text-decoration: none;
+    color: orange;
+}
+.pg{
+  color: orange;
+  text-align: center;
+  margin:50px 0px 50px;
+}
+/*bottom*/
+.bot{
+    background-color: gray;
+    height: 216px;
+}
+.bot p{
+    text-align: center;
+    padding-top: 14px;
+    font-size: 20px;
+    color: black;
+
+}
+.social{
+    text-align: center;
+    padding-top: 8px;
+}
+.social h3{
+    font-size: 21px;
+    color: black;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 57px;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      text-decoration: none;
+  }
+  
+  .fa-facebook {
+    background: black;
+    color: orange;
+  }
+  .fa-twitter {
+    background: black;
+    color: orange;
+  }
+  
+  .fa-google {
+    background: black;
+    color: orange;
+  }
+  .fa-youtube {
+    background: black;
+    color: orange;
+  }
+  
+  .fa-instagram {
+    background: black;
+    color: orange;
+  }    
+.tphere{
+    color: #ffa500;
+    text-decoration: none;
+}
+.tphere:hover{
+    text-decoration: none;
+}
